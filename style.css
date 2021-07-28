@@ -1,0 +1,142 @@
+*{padding: 0;
+margin: 0;}
+
+
+
+.backpart{background-image: url(im-180729.jpg);
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .95;
+    transition: .5s ease-in-out;
+}
+.mainpart{z-index: 2;}
+.center {border-radius: 30px;
+background:rgb(0,65,85,0.5);
+}
+
+.navbar{height: 80px;
+width: 100%;
+background:rgba(27, 236, 90, 0.4)
+
+}
+
+.logo{width:80px;
+    height: auto;
+    padding: 30px, 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.navbar ul{float: right;
+margin-right: 40px;}
+
+.navbar ul li{list-style: none;
+    margin:8px;
+    display: inline-block;
+    line-height: 55px;
+
+}
+
+
+.navbar ul li a{text-decoration: none;
+    color: rgb(207, 8, 8);
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 6px 13px;
+    transition: .4s;
+}
+
+
+.navbar ul li a .active, .navbar ul li a:hover {color:blue;
+    background:rgb(207, 8, 8);;
+border-radius: 20px;}
+
+
+/*----navbar er kaj ses-----*/
+
+
+.mainpart .center {position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+
+}
+
+
+.center h1 {color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 900px;
+    text-align: center;
+
+}
+
+.center h2 {color: rgb(34, 196, 13);
+    font-size: 23px;
+    font-weight: bolder;
+    width: 900px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+.center .Button {margin: 35px, 280px;}
+
+.Button button{height: 70px;
+    width:150px;
+    font-size: 30px;
+    
+    color: white;
+    background-color: rgb(29, 40, 44);
+    border:1px solid;
+    outline: none;
+    cursor:pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.Button .btn {margin-left: 25px;
+}
+
+
+.Button{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;}
+
+     
+    
+    /*----main tag er kaj ses----*/
+
+
+    
+        
+
+        .footerpart {height: 60px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(243, 47, 12, 0.4);
+            color: white;
+            text-align: center;
+            font-size: 25px;
+           
+        }
+
+        #footer-text{padding: 15px;
+        font-family: fantasy;}
+
+
+      
+    
